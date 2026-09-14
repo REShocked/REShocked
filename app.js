@@ -1,5 +1,5 @@
 const SUPABASE_URL = "https://humyvidrlzhdqoemqflx.supabase.co";
-const SUPABASE_KEY = "PASTE_YOUR_PUBLISHABLE_KEY_HERE";
+const SUPABASE_KEY = sb_publishable_ea1Ax5jIIGr8YMGJskMgrw_NiGfCrou
 
 const script = document.createElement("script");
 script.src = "https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2";
