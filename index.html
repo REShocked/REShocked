@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>RESHock — Streetwear</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><a class="logo" href="index.html">RESH<span>OCK</span></a><nav><a href="#shop">Shop</a><a href="#about">About</a><a href="admin.html">Update</a></nav><button id="cartBtn">Cart <b id="cartCount">0</b></button></header>
+<main>
+<section class="hero"><div><p class="eyebrow">RESHock STREETWEAR</p><h1>Fresh fits.<br>Every day.</h1><p>Discover quality streetwear and everyday essentials.</p><a class="button" href="#shop">Shop now</a></div></section>
+<section id="shop" class="shop"><div class="section-head"><h2>Latest drops</h2><div id="filters"></div></div><div id="products" class="grid"></div></section>
+<section id="about" class="about"><h2>About RESHock</h2><p>A mobile-first streetwear shop. Add your own products and prices from the Update page.</p></section>
+</main>
+<div id="cart" class="drawer"><button class="close" onclick="closeCart()">×</button><h2>Your cart</h2><div id="cartItems"></div><div class="total">Total: £<span id="total">0.00</span></div></div>
+<script src="app.js"></script>
+</body></html>
